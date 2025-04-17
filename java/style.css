@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #ffffffd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+#container{
+    background-color: 	#fdf8f8da;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+      width: 624px;
+      height: 488px;
+      margin-top: 5%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+img{
+width: 576px;
+height: 320px;
+margin-top: 10px;
+border-radius: 5px;
+
+
+}
+
+
+
+#container button ,#container2 button,#container3 button{
+justify-content: center;
+text-align: center;
+align-items: center;
+border:none;
+background-color:transparent;
+font-size: 27px;
+cursor: pointer;
+margin-top: 10px;
+width: 50px;
+margin-left: 50px;
+color: 	#080870f6 
+;
+gap: 10px;
+
+
+}
+
+
+#container2 img{
+    width:189px ;
+    height: 189px;
+    padding: 4px;
+    gap: 4px;
+}
+
+#container3 img{
+width: 576px;
+height: 320px;
+margin-top: 10px;  
+
+}
+
+
+#container2 ,#container3 {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+      width: 624px;
+      height: auto;
+      margin: 0 auto;
+}
+
+.secao{
+    display: none;
+}
+#selectRaca{
+    
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+    margin-top: 20px;
+   height: 40px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   margin-left: 50px;
+   width: 80%;
+}
+
+.todas i{
+margin-left: 230px;
+font-size: 25px;
+color: rgb(7, 9, 134); 
+
+
+
+}
+.todas{
+    padding-left: 40px;
+}
+.todas1 i {
+    font-size: 25px;
+    color: #ce0606;
+
+}
+#home h6{
+    font-size: 16px;
+    color:  rgb(7, 9, 134); 
+
+   
+    
+}
+.todas i:hover{
+    color:blue;
+    font-size: 27px;
+
+}
+.todas1 i:hover{
+    color:red;
+    font-size: 27px;
+}
+.op :hover,#home h6:hover{
+    color: rgba(3, 6, 199, 0.815);
+  
+}
